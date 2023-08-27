@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto+Condensed&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Quicksand", sans-serif;
+}
+
+header {
+  background-color: #071e22;
+  color: whitesmoke;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 1.5rem;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+a:hover {
+  color: #f6ae2d;
+}
+
+a:active {
+  color: #388697;
+}
+
+button {
+  background-color: #071e22;
+  color: #f6ae2d;
+  border: 2px solid #f6ae2d;
+  padding: 0.5rem;
+  font-weight: 600;
+  border-radius: 12px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  border: 2px solid #cd533b;
+  color: #cd533b;
+  background-color: #071e22;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
